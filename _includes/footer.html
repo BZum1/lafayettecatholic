@@ -1,3 +1,19 @@
 <footer>
 	<p><a href="mailto:ben@fiatinsight.com">Contact</a></p>
 </footer>
+
+<script type='text/javascript' language='javascript' class='init'>
+	jQuery(document).ready(function() {
+	jQuery('#sunday_mass_list').DataTable({
+		'info': true,
+		'paging': false,
+		'pageLength': 10,
+		'pagingType': 'simple',
+		'bLengthChange': true,
+		'ordering': true,
+		'order': [0,'asc'],
+		'searching': true,
+	} );
+	jQuery('#sunday_mass_list_wrapper select').prepend('<option value=10>Select</option>').val('');
+	jQuery('#sunday_mass_list_wrapper select')[0].options[0].selected = true;  } );
+</script>

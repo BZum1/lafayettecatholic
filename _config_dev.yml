@@ -1,0 +1,15 @@
+# Site Settings
+title: Lafayette Catholic
+email: ben@fiatinsight.com
+description: >
+  Mass and Confession times in Lafayette
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: BenZumdahl
+github_username:  BZum1
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM

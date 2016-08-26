@@ -1,5 +1,3 @@
-# Start Jekyll
+# Lafayette Catholic
 
-A guide to getting started with Jekyll.
-
-[Read the tutorial](http://taniarascia.com/make-a-static-website-with-jekyll)
+This site lists Sunday Mass times and all Confession times for parishes in Lafayette and West Lafayette, Indiana, in an easy to sort way.
